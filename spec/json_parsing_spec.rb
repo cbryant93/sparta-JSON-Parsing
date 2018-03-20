@@ -7,8 +7,6 @@ describe CustomerInfo do
   end
 
   it "all names are a string" do
-    # expect(@data.json_customer_file.first["first_name"]).to be_a String
-    # expect(@data.json_customer_file.first["last_name"]).to be_a String
 
     @file.json_customer_file.each do |name|
       expect(name['first_name']).to be_instance_of(String)
@@ -29,6 +27,14 @@ describe CustomerInfo do
 
     end
   end
+
+  it "Each person should have 2 phone numbers" do
+    @file.json_customer_file.each do |num|
+      expect(num["Phone_number"]["mobile"].count).to eq(2)
+
+    end
+  end
+
 
 
 
