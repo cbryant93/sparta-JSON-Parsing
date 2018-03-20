@@ -7,4 +7,5 @@ class CustomerInfo
     @json_customer_file = JSON.parse(File.read(json_customer_file))
 
   end
+
 end
