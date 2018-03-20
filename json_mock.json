@@ -1,0 +1,61 @@
+[{
+  "id": 1,
+  "first_name": "Patton",
+  "last_name": "Primett",
+  "email": "pprimett0@yale.edu",
+  "gender": "Male",
+  "Phone number": {
+    "mobile": [
+      "4249844641",
+      "2458130009"
+    ]
+  }
+}, {
+  "id": 2,
+  "first_name": "Kennedy",
+  "last_name": "Decourt",
+  "email": "kdecourt1@addthis.com",
+  "gender": "Male",
+  "Phone number": {
+    "mobile": [
+      "7795253169",
+      "2894922990"
+    ]
+  }
+}, {
+  "id": 3,
+  "first_name": "Eustacia",
+  "last_name": "Meneghelli",
+  "email": "emeneghelli2@barnesandnoble.com",
+  "gender": "Female",
+  "Phone number": {
+    "mobile": [
+      "5045462085",
+      "7889823904"
+    ]
+  }
+}, {
+  "id": 4,
+  "first_name": "Rickie",
+  "last_name": "Staggs",
+  "email": "rstaggs3@squidoo.com",
+  "gender": "Female",
+  "Phone number": {
+    "mobile": [
+      "2587922222",
+      "8767487883"
+    ]
+  }
+}, {
+  "id": 5,
+  "first_name": "Rozalin",
+  "last_name": "Adamiec",
+  "email": "radamiec4@pinterest.com",
+  "gender": "Female",
+  "Phone number": {
+    "mobile": [
+      "8182200939",
+      "5907310663"
+    ]
+  }
+}]
