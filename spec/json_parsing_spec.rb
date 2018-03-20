@@ -35,6 +35,13 @@ describe CustomerInfo do
     end
   end
 
+  it "all IDs are an Integer" do
+
+    @file.json_customer_file.each do |id|
+      expect(id["id"]).to be_instance_of(Integer)
+    end
+
+  end
 
 
 
